@@ -161,9 +161,7 @@ ul {
   }
   #Services{
     display: flex;
-    margin: auto;
     justify-items: center;
-    height: 55%; 
     width: 95%;
   }
   img {
@@ -195,9 +193,7 @@ ul {
   }
   #Services{
     display: flex;
-    margin: auto;
     justify-items: center;
-    height: 55%; 
     width: 95%;
   }
   img {
