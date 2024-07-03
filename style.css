@@ -73,6 +73,7 @@ ul {
           display: flex;
           font-size: 20px;
           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          margin-top: 2vh;
   }
   
   button {
@@ -134,6 +135,11 @@ ul {
   .align{
     display: flex;
     flex-direction: column;
+  }
+
+  form{
+    margin-bottom: 10%;
+    padding-bottom: 5px;
   }
 
 
