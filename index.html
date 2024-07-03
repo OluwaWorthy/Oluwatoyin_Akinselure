@@ -119,7 +119,7 @@
     <br>
     <br>
     <section id="Contact">
-          <form>
+          <form onsubmit="get_action(this);">
              <h2><bold>Contact Me</bold></h2> 
              <label>First Name:</label>
              <br>
@@ -137,17 +137,20 @@
              <br>
              <input type="text" value="" required>
              <br>
-             <input style="background-color: #4CAF50; border: 2px solid white; 
+             <input type="submit" style="background-color: #4CAF50; border: 2px solid white; 
              color: white; padding: 8px 32px; text-align: center; text-decoration: none; 
-             border-radius: 8px;" type="submit"><br>
+             border-radius: 8px;" ><br>
+             <script type="text/javascript">
+              function get_action(form) {
+                  form.action = form_action;
+              }
+            </script>
             </form>
     </section>
   </main>
-<br><br><br><br><br>
-</body>
+<br>s
 <br>
-<br>
-<a style="display: inline-block;text-align: center;position: fixed;bottom: 60px;" href="#Contact"> <button type="button">CONTACT ME</button> </a> 
+<a style="display: inline-block;text-align: center;position: fixed;bottom: 120px; right: 180px;" href="#Contact"> <button type="button">CONTACT ME</button> </a> 
  <br>
  <br> 
 <footer>
@@ -166,6 +169,8 @@
   </script></span> 
 <span id="slackEmail" style=width:30vw;>toyinakinselure@gmail.com</span> 
 </footer>
+</body>
+
 
 </html>
 
