@@ -115,9 +115,6 @@
         </div>
     </section>
     <br>
-    <br>
-    <br>
-    <br>
     <section id="Contact">
           <form onsubmit="get_action(this);">
              <h2><bold>Contact Me</bold></h2> 
@@ -154,8 +151,8 @@
  <br>
  <br> 
 <footer>
-<span id="slackDisplayName" style=width:30vw; >Oluwatoyin Akinselure</span> 
-<span data-testid="currentTimeUTC" data-testid="currentDay" id="clock" style=width:30vw;>
+<span data-testid="slackDisplayName" style=width:22vw; >Oluwatoyin Akinselure</span> 
+<span data-testid="currentTimeUTC" id="clock" style=width:22vw;>
   <script> 
   (function () {
     var clockElement = document.getElementById( "clock" );
@@ -166,8 +163,12 @@
       updateClock( clockElement );
     }, 1000);
   }());
-  </script></span> 
-<span id="slackEmail" style=width:30vw;>toyinakinselure@gmail.com</span> 
+  </script></span>
+  <span  data-testid="currentDay" class="day" style=width:22vw;>
+    <script> 
+      document.querySelector('.day').textContent = 'Today is ' + new Date().toLocaleDateString('en-us', {weekday:'long'});
+    </script></span> 
+<span data-testid="slackEmail" style=width:22vw;>toyinakinselure@gmail.com</span> 
 </footer>
 </body>
 
